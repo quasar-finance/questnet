@@ -10,7 +10,7 @@ If you want to join the chain after it has launched, please [follow here](./docs
 
 To promote your node to validator, please [check this](./docs/Promote_to_validator.md).
 
-Please [review this](./docs/Get_quasar.md) if you want to interact through RCP with the running chain.
+Please [review this](./docs/Interacting_with_chain.md) if you want to interact through RCP with the running chain.
 
 ## Genesis ceremonies
 
