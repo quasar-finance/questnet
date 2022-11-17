@@ -6,7 +6,7 @@ This guide assumes that you have a node installed with our code compiled from th
 It can be done both in the cloud or in your computer.
 Please check [this guide](Get_quasar) for more info.
 
-FYI: Last questnet version uses git tag [v0.0.1-alpha-5](https://github.com/quasar-finance/quasar/tree/v0.0.1-alpha-5)
+FYI: Last questnet version uses git tag [v0.0.1-alpha-6](https://github.com/quasar-finance/quasar/tree/v0.0.1-alpha-6)
 
 ## How to join the chain as a full node
 
