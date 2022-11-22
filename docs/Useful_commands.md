@@ -71,3 +71,15 @@ Check delegations to certain validator:
 Api request for balance:
 
 http://localhost:1317/cosmos/bank/v1beta1/balances/quasar1yczswgcmhdjl0rdzjx29jwgtmq8h26hykdjx9k
+
+
+
+
+# Clean genesis, gentx and state
+# Danger USE IT CAREFULLY
+truncate -s 0 config/genesis.json 
+rm -rf data/application.db data/blockstore.db snapshots data/state.db data/tx_index.db data/evidence.db data/cs.wal data/snapshots
+rm config/gentx/*
+
+quasarnoded gentx validator_key 5000000000uqsr --chain-id qsr-questnet-03 --keyring-backend test
+
