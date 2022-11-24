@@ -1,0 +1,61 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Larry Engineer",
+          "identity": "28DC4101DA38C22C",
+          "website": "https://larry.engineer",
+          "security_contact": "gm@larry.engineer",
+          "details": ""
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "quasar1quwyej8qk0jmw8wj6qvt6j7h8ta5uwvtrs9nha",
+        "validator_address": "quasarvaloper1quwyej8qk0jmw8wj6qvt6j7h8ta5uwvt8w48l0",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "2wNp/KouRn3hw3JmnTy+Qqi/N7Zi7H8eypgvdii2HGs="
+        },
+        "value": {
+          "denom": "uqsr",
+          "amount": "100000000"
+        }
+      }
+    ],
+    "memo": "7e63a1bf782f8810c60dc88135afeb8d555f0fee@65.108.46.248:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "AyBwp+t0hL4mOfK+bpa3Jm4fTuUqMf72Gmtte1s0wFfD"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "SIZadiWYo7IJOZ8AUd/EmPVK2jzk3z6wu0Bl1UmJJ0hjlUbYszXjb6Ir3w0Kje+7VUwEHLOx6U2RpoXPYp21+w=="
+  ]
+}
