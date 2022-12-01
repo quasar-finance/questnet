@@ -1,6 +1,6 @@
 # How to interact with the running testnet
 
-With the binary installed (see [Get_quasar.md](Get_quasar)), you can interact with the chain using remote nodes. 
+With the binary installed (see [Get quasar](Get_quasar.md)), you can interact with the chain using remote nodes. 
 
 Example command:
 
