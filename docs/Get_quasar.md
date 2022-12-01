@@ -39,7 +39,7 @@ Not available at the moment
 ```
 
 
-We have [recipes](https://github.com/quasar-finance/quasar-devops/) developed to allow you to raise a node in GCP using terraform and configure it with Ansible.
+We have [recipes](https://github.com/quasar-finance/) developed to allow you to raise a node in GCP using terraform and configure it with Ansible.
 
 They essentially will configure go, download our code and compile the binary, download and compile cosmovisor, and install it wrapping our binary as a systemd unit.
 
