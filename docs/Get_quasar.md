@@ -1,6 +1,16 @@
+# Hardware requirements
+
+These are the sugested spects, given we are still during testnet phase, you may decide to cut down a little.
+
+- 4 or more physical CPU cores
+- At least 500GB of SSD disk storage
+- At least 16GB of memory
+- At least 100mbps network bandwidth
+
+
 # How to install Quasar
 
-## Local machine: 
+## Local machine 
 
 ### From sources
 
@@ -12,7 +22,9 @@ Our repo is still not open source. You will need to use the binary provided by q
 ```
 ### Binary installation
 
-1. Download the binary from [here](https://github.com/quasar-finance/binary-release/).
+(Currently tested in Ubuntu 22)
+
+1. Download the binary corresponding to the testnet version from [here](https://github.com/quasar-finance/binary-release/).
 2. Put it in your desired folder (it is useful to have it in your PATH)
 
 ### Creating your keys
