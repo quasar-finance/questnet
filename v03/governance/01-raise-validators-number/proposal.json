@@ -1,0 +1,12 @@
+{
+    "title": "Validator number change",
+    "description": "We would like to onboard more validators to the network. We need to increase the number.",
+    "changes": [
+      {
+        "subspace": "staking",
+        "key": "MaxValidators",
+        "value": 23
+      }
+    ],
+    "deposit": "10000000uqsr"
+}
