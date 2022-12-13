@@ -6,29 +6,19 @@ Example command:
 
 `quasarnoded q bank total --node tcp://$NODE_IP:$PORT`
 
-
-## Running chains
-
-For testnet v02 we have deployed one RPC / LCD node to allow you to interact with the running chain:node_key.json
-
-= Questnet v02 = 
-- Available full nodes: 34.175.250.231
-- Persistent peers: check [here](https://github.com/quasar-finance/questnet/blob/main/v02/persistent_peers.txt)
-- Seed: None
-
 ## How to connect to the full nodes
 
 The API endpoints available are these:
 
-Tendermint RPC:
-- IP: 34.175.250.231
-- PORT: 26657
+- RPC endpoints:
+    - __https://quasar-testnet-rpc.polkachu.com__
+    - __https://rpc-office.cosmostation.io/quasar-testnet__
+    - __https://questnet.quasar-finance.rhinostake.com__
+- REST (LCD) endpoints:
+    - __https://quasar-testnet-api.polkachu.com__
+    - __https://lcd-office.cosmostation.io/quasar-testnet__
 
-LCD:
-- IP: 34.175.250.231
-- PORT: 1317
+Then, a command to query the bank module would be:
 
-Then, the command to hit this node would be:
-
-`quasarnoded q bank total --node tcp://34.175.250.231:26657`
+`quasarnoded q bank total --node https://quasar-testnet-rpc.polkachu.com:443`
 

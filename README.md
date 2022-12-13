@@ -21,8 +21,6 @@ We will also have the supporting documentation here.
 
 ### Where to start?
 
-
-
 1. Get quasar and create an address: [Get quasar](./docs/Get_quasar.md)
 
 2. To make your node join the chain you need either:
@@ -30,8 +28,8 @@ We will also have the supporting documentation here.
     a. Participate in a genesis ceremony, if you are invited, please follow [this guide](./docs/Genesis.md).
 
     b. Join the chain after it has launched:
-        1. Check [here](./docs/Join_chain.md) to see how to raise a node.  
-        2. And then [here](./docs/Promote_to_validator.md) to promote your node to validator.
+    1. Check [here](./docs/Join_chain.md) to see how to make your node join the chain.  
+    2. And then [here](./docs/Promote_to_validator.md) to promote your node to validator.
 
 
 If you just want to interact (RPC/API) with the running chain, please [review this](./docs/Interacting_with_chain.md).
