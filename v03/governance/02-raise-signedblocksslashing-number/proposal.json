@@ -1,0 +1,12 @@
+{
+  "title": "Slashing Param Change",
+  "description": "Update block SignedBlocksWindow param",
+  "changes": [
+    {
+      "subspace": "slashing",
+      "key": "SignedBlocksWindow",
+      "value": "10000"
+    }
+  ],
+  "deposit": "1000uqsr"
+}
