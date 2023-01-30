@@ -6,7 +6,7 @@ We will also have the supporting documentation here.
 ## Quasar current testnet is v03.
 
 - chain id: __qsr-questnet-03__
-- code version: __v0.0.1-alpha-6__
+- code version: __v0.0.1-alpha-7__
 - RPC endpoints:
     - __https://quasar-testnet-rpc.polkachu.com__
     - __https://rpc-office.cosmostation.io/quasar-testnet__
