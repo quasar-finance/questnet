@@ -704,57 +704,33 @@
         "blocks_per_year": "6311520"
       }
     },
-    "orion": {
-      "params": {
-        "perf_fee_per": "0.030000000000000000",
-        "mgmt_fee_per": "0.005000000000000000",
-        "lp_epoch_id": "day",
-        "destination_chain_id": "osmosis",
-        "enabled": false,
-        "white_listed_pools": [],
-        "osmosis_local_info": {
-          "local_zone_id": "",
-          "connection_id": "",
-          "chain_id": ""
-        }
-      },
-      "lpPosition": null,
-      "rewardCollection": null,
-      "lpStat": null
-    },
     "params": null,
-    "qbank": {
-      "params": {
-        "enabled": false,
-        "min_orion_epoch_denom_dollar_deposit": "100.000000000000000000",
-        "orion_epoch_identifier": "day",
-        "white_listed_denoms_in_orion": [
-          {
-            "origin_name": "uatom",
-            "onehop_quasar": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC",
-            "onehop_osmo": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC"
-          }
-        ]
-      },
-      "depositInfos": [],
-      "totalDeposits": [],
-      "withdrawables": [],
-      "totalWithdraws": [],
-      "claimableRewards": [],
-      "totalClaimedRewards": []
-    },
     "qoracle": {
-      "port_id": "qoracle",
       "params": {
-        "bandchain_params": {
-          "oracle_ibc_params": {
-            "authorized_channel": "",
-            "timeout_height": {
-              "revision_number": "0",
-              "revision_height": "0"
-            },
-            "timeout_timestamp": "600000000000"
+        "denom_prices_exp_duration": "360000000000"
+      },
+      "denom_symbol_mappings": [
+        {
+          "denom": "uatom",
+          "oracle_symbol": "ATOM",
+          "multiplier": "0.000001000000000000"
+        },
+        {
+          "denom": "uosmo",
+          "oracle_symbol": "OSMO",
+          "multiplier": "0.000001000000000000"
+        }
+      ],
+      "bandchain_genesis_state": {
+        "port": "qbandchainoracle",
+        "params": {
+          "enabled": true,
+          "authorized_channel": "",
+          "packet_timeout_height": {
+            "revision_number": "0",
+            "revision_height": "0"
           },
+          "packet_timeout_timestamp": "180000000000",
           "coin_rates_params": {
             "epoch_identifier": "minute",
             "symbols": [
@@ -777,42 +753,25 @@
               "execute_gas": "600000"
             }
           }
-        },
-        "osmosis_params": {
-          "icq_params": {
-            "authorized_channel": "",
-            "timeout_height": {
-              "revision_number": "0",
-              "revision_height": "0"
-            },
-            "timeout_timestamp": "600000000000"
+        }
+      },
+      "osmosis_genesis_state": {
+        "port": "qosmosisoracle",
+        "params": {
+          "enabled": true,
+          "epoch_identifier": "minute",
+          "authorized_channel": "",
+          "packet_timeout_height": {
+            "revision_number": "0",
+            "revision_height": "0"
           },
-          "epoch_identifier": "minute"
-        },
-        "denom_price_mappings": [
-          {
-            "denom": "uatom",
-            "oracle_denom": "ATOM",
-            "multiplier": "0.000001000000000000"
-          },
-          {
-            "denom": "uosmo",
-            "oracle_denom": "OSMO",
-            "multiplier": "0.000001000000000000"
-          }
-        ],
-        "oneHopDenomMap": [
-          {
-            "originName": "uatom",
-            "quasar": "IBC/TESTATOM",
-            "osmo": "IBC/TESTOSMO"
-          },
-          {
-            "originName": "uosmo",
-            "quasar": "IBC/TESTOSMO",
-            "osmo": "uosmo"
-          }
-        ]
+          "packet_timeout_timestamp": "180000000000"
+        }
+      }
+    },
+    "qtransfer": {
+      "params": {
+        "wasm_hooks_enabled": true
       }
     },
     "slashing": {
@@ -832,7 +791,8 @@
         "max_validators": 21,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "uqsr"
+        "bond_denom": "uqsr",
+        "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
