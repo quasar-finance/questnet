@@ -11,11 +11,15 @@ We will also have the supporting documentation here.
     - __https://quasar-testnet-rpc.polkachu.com__
     - __https://rpc-office.cosmostation.io/quasar-testnet__
     - __https://questnet.quasar-finance.rhinostake.com__
+    - __https://quasar-testnet-rpc.swiss-staking.ch/__
 - REST (LCD) endpoints:
     - __https://quasar-testnet-api.polkachu.com__
     - __https://lcd-office.cosmostation.io/quasar-testnet__
+    - __https://quasar-testnet-api.swiss-staking.ch/__
+    
 - gRPC endpoints:
     - __quasar-testnet-grpc.polkachu.com:18290__
+    - __quasar-testnet-grpc.swiss-staking.ch:10090__
 
 ---
 
