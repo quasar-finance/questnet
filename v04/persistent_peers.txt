@@ -1,0 +1,5 @@
+Moniker: WhisperNode
+Node ID: bba6e85e3d1f1d9c127324e71a982ddd86af9a99
+Public IP: 88.99.3.158
+Address: bba6e85e3d1f1d9c127324e71a982ddd86af9a99@88.99.3.158:18256
+
