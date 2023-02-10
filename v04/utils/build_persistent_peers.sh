@@ -2,7 +2,7 @@
 
 set -ef
 
-PEERS_FILE="persistent_peers.txt"
+PEERS_FILE="../persistent_peers.txt"
 
 
 if [ "$#" -ne 1 ]; then
