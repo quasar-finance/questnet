@@ -22,7 +22,7 @@ We will also have the supporting documentation here.
 - gRPC endpoints:
     - __quasar-testnet-grpc.polkachu.com:18290__
     - __quasar-testnet-grpc.swiss-staking.ch:10090__
-    - __https://grpc.quasar-test.theamsolutions.info:9194__
+    - __grpc.quasar-test.theamsolutions.info:9194__
 
 ---
 
