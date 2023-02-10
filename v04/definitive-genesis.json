@@ -1,5 +1,5 @@
 {
-   "genesis_time" : "2023-01-10T15:00:00Z",
+   "genesis_time" : "2023-02-10T15:00:00Z",
   "chain_id": "qsr-questnet-04",
   "initial_height": "1",
   "consensus_params": {
