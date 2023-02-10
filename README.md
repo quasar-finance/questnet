@@ -3,10 +3,10 @@
 This repo will be used to track the different genesis ceremonies we will be celebrating during our Questnet phase.
 We will also have the supporting documentation here.
 
-## Quasar current testnet is v03.
+## Quasar current testnet is v04.
 
-- chain id: __qsr-questnet-03__
-- code version: __v0.0.1-alpha-7__
+- chain id: __qsr-questnet-04__
+- code version: __v0.0.2-alpha-11__
 - RPC endpoints:
     - __https://quasar-testnet-rpc.polkachu.com__
     - __https://rpc-office.cosmostation.io/quasar-testnet__
