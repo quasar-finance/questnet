@@ -11,14 +11,18 @@ We will also have the supporting documentation here.
     - __https://quasar-testnet-rpc.polkachu.com__
     - __https://questnet.quasar-finance.rhinostake.com__
     - __https://quasar-testnet-rpc.swiss-staking.ch__
+    - __https://testnet-quasar-rpc.lavenderfive.com__
+
 - REST (LCD) endpoints:
     - __https://quasar-testnet-api.polkachu.com__
     - __https://questnet.quasar-finance.rhinostake.com__
     - __https://quasar-testnet-api.swiss-staking.ch__
+    - __https://testnet-quasar-api.lavenderfive.com__
     
 - gRPC endpoints:
     - __quasar-testnet-grpc.polkachu.com:18290__
     - __quasar-testnet-grpc.swiss-staking.ch:10090__
+    - __https://testnet-quasar-grpc.lavenderfive.com:443__
 
 ---
 
