@@ -12,17 +12,20 @@ We will also have the supporting documentation here.
     - __https://questnet.quasar-finance.rhinostake.com__
     - __https://quasar-testnet-rpc.swiss-staking.ch__
     - __https://testnet-quasar-rpc.lavenderfive.com__
+    - __https://rpc-quasar.nodeist.net__
 
 - REST (LCD) endpoints:
     - __https://quasar-testnet-api.polkachu.com__
     - __https://questnet.quasar-finance.rhinostake.com__
     - __https://quasar-testnet-api.swiss-staking.ch__
     - __https://testnet-quasar-api.lavenderfive.com__
+    - __https://api-quasar.nodeist.net__
     
 - gRPC endpoints:
     - __quasar-testnet-grpc.polkachu.com:18290__
     - __quasar-testnet-grpc.swiss-staking.ch:10090__
     - __https://testnet-quasar-grpc.lavenderfive.com:443__
+    - __https://grpc-quasar.nodeist.net__
 
 ---
 
@@ -46,6 +49,6 @@ If you just want to interact (RPC/API) with the running chain, please [review th
 
 The different phases will be numbered as v01, v02, v03... 
 Inside each phase folder we will have:
-- `pre-genesis.json` file: Provided by Quasar team, containing the initial token allocation.
-- `gentx/` folder: Used by participants to upload their genesis transactions, in the form gentx-< monicker >.json
+- `pre-genesis.json` file: Provided by Quasar Team, containing the initial token allocation.
+- `gentx/` folder: Used by participants to upload their genesis transactions, in the form gentx-<moniker>.json
 - `definitive-genesis.json ` file: Uploaded at the end of each ceremony by the quasar team. Should be used to launch the chain.
